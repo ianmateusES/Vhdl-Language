@@ -1,0 +1,59 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Mon Jun 26 20:44:19 2017
+# Process ID: 8248
+# Current directory: C:/Users/ianma/Documents/Simula/Pratica - 5/Decodificador
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8236 C:\Users\ianma\Documents\Simula\Pratica - 5\Decodificador\Decodificador.xpr
+# Log file: C:/Users/ianma/Documents/Simula/Pratica - 5/Decodificador/vivado.log
+# Journal file: C:/Users/ianma/Documents/Simula/Pratica - 5/Decodificador\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/ianma/Documents/Simula/Pratica - 5/Decodificador/Decodificador.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/ianma/Documents/Simula/Decodificador' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+open_project: Time (s): cpu = 00:00:50 ; elapsed = 00:00:53 . Memory (MB): peak = 715.004 ; gain = 65.266
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z010clg400-1
+Top: Decodificador
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 789.207 ; gain = 49.035
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Decodificador' [C:/Users/ianma/Documents/Simula/Pratica - 5/Decodificador/Decodificador.srcs/sources_1/new/Decodificador.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'Decodificador' (1#1) [C:/Users/ianma/Documents/Simula/Pratica - 5/Decodificador/Decodificador.srcs/sources_1/new/Decodificador.vhd:10]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 826.445 ; gain = 86.273
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 826.445 ; gain = 86.273
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:01:59 ; elapsed = 00:01:53 . Memory (MB): peak = 1088.680 ; gain = 348.508
+6 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:00 ; elapsed = 00:01:53 . Memory (MB): peak = 1088.680 ; gain = 348.508

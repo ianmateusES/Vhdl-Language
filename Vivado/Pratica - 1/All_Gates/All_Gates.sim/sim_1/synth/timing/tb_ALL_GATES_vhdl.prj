@@ -1,0 +1,5 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../../All_Gates.srcs/sim_1/imports/Arquivos de aula/tb_ALL_GATES.vhd"
+
+# Do not sort compile order
+nosort

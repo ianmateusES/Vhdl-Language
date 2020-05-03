@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ianma/Documents/Simula/Pratica_2_completa/Pratica_2_completa.sim/sim_1/impl/timing/tb_Pratica_2_completa_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pratica_2_completa
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pratica_2_completa/Pratica_2_completa.srcs/sim_1/new/tb_Pratica_2_completa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_Pratica_2_completa

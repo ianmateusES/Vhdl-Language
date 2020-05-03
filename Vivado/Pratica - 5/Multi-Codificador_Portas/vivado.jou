@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sat Jun 24 23:27:53 2017
+# Process ID: 2496
+# Current directory: C:/Users/ianma/Documents/Simula/Multi-Codificador_Portas
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7512 C:\Users\ianma\Documents\Simula\Multi-Codificador_Portas\Multi-Codificador_Portas.xpr
+# Log file: C:/Users/ianma/Documents/Simula/Multi-Codificador_Portas/vivado.log
+# Journal file: C:/Users/ianma/Documents/Simula/Multi-Codificador_Portas\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ianma/Documents/Simula/Multi-Codificador_Portas/Multi-Codificador_Portas.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_Codificador_Portas.tcl
+synth_design -rtl -name rtl_1
+close_sim

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Full_adder/Full_adder.srcs/sources_1/new/Full.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Full
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Full_adder/Full_adder.srcs/sim_1/new/tb_Full.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_Full

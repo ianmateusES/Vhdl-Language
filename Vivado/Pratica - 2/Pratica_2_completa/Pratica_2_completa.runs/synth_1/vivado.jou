@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sat Apr 08 17:53:39 2017
+# Process ID: 8024
+# Current directory: C:/Users/ianma/Documents/Simula/Pratica_2_completa/Pratica_2_completa.runs/synth_1
+# Command line: vivado.exe -log Pratica_2_completa.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Pratica_2_completa.tcl
+# Log file: C:/Users/ianma/Documents/Simula/Pratica_2_completa/Pratica_2_completa.runs/synth_1/Pratica_2_completa.vds
+# Journal file: C:/Users/ianma/Documents/Simula/Pratica_2_completa/Pratica_2_completa.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Pratica_2_completa.tcl -notrace

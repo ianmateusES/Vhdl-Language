@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Tanque_Industrial/Tanque_Industrial.srcs/sources_1/new/Tanque.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Tanque
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Tanque_Industrial/Tanque_Industrial.srcs/sim_1/new/tb_tanque.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_tanque

@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../Sensor_direcional.srcs/sources_1/new/DIRECIONAL.vhd"
+vhdl xil_defaultlib  "../../../Sensor_direcional.srcs/sim_1/new/tb_DIRECIONAL.vhd"
+
+# Do not sort compile order
+nosort

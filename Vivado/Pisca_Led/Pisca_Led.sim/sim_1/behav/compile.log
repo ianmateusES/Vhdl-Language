@@ -1,0 +1,12 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pisca_Led/Pisca_Led.srcs/sources_1/new/G_XOR_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity G_XOR_2
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pisca_Led/Pisca_Led.srcs/sources_1/new/G_XOR_3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity G_XOR_3
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pisca_Led/Pisca_Led.srcs/sources_1/new/G_XOR_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity G_XOR_4
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pisca_Led/Pisca_Led.srcs/sources_1/new/G_xor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity G_xor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pisca_Led/Pisca_Led.srcs/sources_1/new/Led.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Led
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pisca_Led/Pisca_Led.srcs/sim_1/new/tb_Led.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_Led

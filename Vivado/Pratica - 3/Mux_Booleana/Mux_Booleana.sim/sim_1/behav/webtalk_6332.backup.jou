@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Apr 18 22:32:45 2017
+# Process ID: 6332
+# Current directory: C:/Users/ianma/Documents/Simula/Mux_Booleana/Mux_Booleana.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source C:/Users/ianma/Documents/Simula/Mux_Booleana/Mux_Booleana.sim/sim_1/behav/xsim.dir/tb_Mux_Booleana_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/ianma/Documents/Simula/Mux_Booleana/Mux_Booleana.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/ianma/Documents/Simula/Mux_Booleana/Mux_Booleana.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/ianma/Documents/Simula/Mux_Booleana/Mux_Booleana.sim/sim_1/behav/xsim.dir/tb_Mux_Booleana_behav/webtalk/xsim_webtalk.tcl -notrace

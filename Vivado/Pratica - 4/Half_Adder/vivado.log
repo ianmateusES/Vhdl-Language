@@ -1,0 +1,475 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sun Jun 25 18:17:52 2017
+# Process ID: 6752
+# Current directory: C:/Users/ianma/Documents/Simula/Pratica - 4/Half_Adder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6304 C:\Users\ianma\Documents\Simula\Pratica - 4\Half_Adder\Half_Adder.xpr
+# Log file: C:/Users/ianma/Documents/Simula/Pratica - 4/Half_Adder/vivado.log
+# Journal file: C:/Users/ianma/Documents/Simula/Pratica - 4/Half_Adder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/ianma/Documents/Simula/Pratica - 4/Half_Adder/Half_Adder.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/ianma/Documents/Simula/Half_Adder' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+open_project: Time (s): cpu = 00:00:43 ; elapsed = 00:00:32 . Memory (MB): peak = 711.781 ; gain = 61.863
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z010clg400-1
+Top: Half
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:27 ; elapsed = 00:00:59 . Memory (MB): peak = 794.676 ; gain = 47.148
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Half' [C:/Users/ianma/Documents/Simula/Pratica - 4/Half_Adder/Half_Adder.srcs/sources_1/new/Half.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'Half' (1#1) [C:/Users/ianma/Documents/Simula/Pratica - 4/Half_Adder/Half_Adder.srcs/sources_1/new/Half.vhd:11]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:34 ; elapsed = 00:01:09 . Memory (MB): peak = 831.949 ; gain = 84.422
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:35 ; elapsed = 00:01:10 . Memory (MB): peak = 831.949 ; gain = 84.422
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:02:21 ; elapsed = 00:03:21 . Memory (MB): peak = 1095.371 ; gain = 347.844
+6 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:22 ; elapsed = 00:03:22 . Memory (MB): peak = 1095.371 ; gain = 347.844
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/artix7/ac701/1.0/board_part.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.1 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/artix7/ac701/1.1/board_part.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.2 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/ac701/1.2/board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.3 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/ac701/1.3/board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc707/1.0/board_part.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.1 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc707/1.1/board_part.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.2 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/vc707/1.2/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.3 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/vc707/1.3/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc709/1.0/board_part.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.1 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc709/1.1/board_part.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.2 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc709/1.2/board_part.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.3 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc709/1.3/board_part.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.4 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc709/1.4/board_part.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.5 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc709/1.5/board_part.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.6 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/vc709/1.6/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.7 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/vc709/1.7/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/zynq/zc706/1.0/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.1 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/zynq/zc706/1.1/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.2 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/zc706/1.2/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.3 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/zc706/1.3/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/zcu102/3.0/board.xml as part xczu9eg-ffvb1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/artix7/ac701/1.0/board_part.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.1 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/artix7/ac701/1.1/board_part.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.2 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/ac701/1.2/board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.3 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/ac701/1.3/board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc707/1.0/board_part.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.1 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc707/1.1/board_part.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.2 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/vc707/1.2/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.3 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/vc707/1.3/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc709/1.0/board_part.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.1 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc709/1.1/board_part.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.2 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc709/1.2/board_part.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.3 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc709/1.3/board_part.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.4 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc709/1.4/board_part.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.5 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc709/1.5/board_part.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.6 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/vc709/1.6/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.7 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/vc709/1.7/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/zynq/zc706/1.0/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.1 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/zynq/zc706/1.1/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.2 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/zc706/1.2/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.3 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/zc706/1.3/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/zcu102/3.0/board.xml as part xczu9eg-ffvb1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/artix7/ac701/1.0/board_part.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.1 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/artix7/ac701/1.1/board_part.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.2 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/ac701/1.2/board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.3 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/ac701/1.3/board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc707/1.0/board_part.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.1 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc707/1.1/board_part.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.2 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/vc707/1.2/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.3 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/vc707/1.3/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc709/1.0/board_part.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.1 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc709/1.1/board_part.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.2 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc709/1.2/board_part.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.3 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc709/1.3/board_part.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.4 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc709/1.4/board_part.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.5 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc709/1.5/board_part.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.6 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/vc709/1.6/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.7 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/vc709/1.7/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/zynq/zc706/1.0/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.1 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/zynq/zc706/1.1/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.2 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/zc706/1.2/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.3 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/zc706/1.3/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/zcu102/3.0/board.xml as part xczu9eg-ffvb1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/artix7/ac701/1.0/board_part.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.1 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/artix7/ac701/1.1/board_part.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.2 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/ac701/1.2/board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.3 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/ac701/1.3/board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc707/1.0/board_part.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.1 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc707/1.1/board_part.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.2 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/vc707/1.2/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.3 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/vc707/1.3/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc709/1.0/board_part.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.1 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc709/1.1/board_part.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.2 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc709/1.2/board_part.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.3 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc709/1.3/board_part.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.4 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc709/1.4/board_part.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.5 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc709/1.5/board_part.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.6 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/vc709/1.6/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.7 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/vc709/1.7/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/zynq/zc706/1.0/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.1 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/zynq/zc706/1.1/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.2 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/zc706/1.2/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.3 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/zc706/1.3/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/zcu102/3.0/board.xml as part xczu9eg-ffvb1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/artix7/ac701/1.0/board_part.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.1 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/artix7/ac701/1.1/board_part.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.2 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/ac701/1.2/board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.3 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/ac701/1.3/board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc707/1.0/board_part.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.1 available at C:/Xilinx/Vivado/2017.2/data/boards/board_parts/virtex7/vc707/1.1/board_part.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.2 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/vc707/1.2/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.3 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/vc707/1.3/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+INFO: [Common 17-14] Message 'Board 49-26' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+close_project
+close_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1101.422 ; gain = 0.000
+create_project {Somador de 4bits com hierarquia} {C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia} -part xc7z010clg400-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+create_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1101.422 ; gain = 0.000
+set_property board_part digilentinc.com:zybo:part0:1.0 [current_project]
+file mkdir C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new
+file mkdir C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new
+file mkdir C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new
+set_property target_language VHDL [current_project]
+file mkdir C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new
+file mkdir C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new
+file mkdir C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new
+file mkdir C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new
+file mkdir {C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new}
+close [ open {C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Somador_4bits.vhd} w ]
+add_files {{C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Somador_4bits.vhd}}
+close [ open {C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Half_Adder.vhd} w ]
+add_files {{C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Half_Adder.vhd}}
+close [ open {C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Full_Adder.vhd} w ]
+add_files {{C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Full_Adder.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z010clg400-1
+Top: Somador_4bits
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1101.422 ; gain = 0.000
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-2040] formal port carry_out of mode out cannot be associated with actual port carry of mode buffer [C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Somador_4bits.vhd:31]
+WARNING: [Synth 8-2040] formal port carry_out of mode out cannot be associated with actual port carry of mode buffer [C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Somador_4bits.vhd:32]
+WARNING: [Synth 8-2040] formal port carry_out of mode out cannot be associated with actual port carry of mode buffer [C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Somador_4bits.vhd:33]
+INFO: [Synth 8-638] synthesizing module 'Somador_4bits' [C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Somador_4bits.vhd:13]
+INFO: [Synth 8-3491] module 'Half_Adder' declared at 'C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Half_Adder.vhd:5' bound to instance 'Bit0' of component 'Half_Adder' [C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Somador_4bits.vhd:31]
+INFO: [Synth 8-638] synthesizing module 'Half_Adder' [C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Half_Adder.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'Half_Adder' (1#1) [C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Half_Adder.vhd:12]
+INFO: [Synth 8-3491] module 'Full_Adder' declared at 'C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Full_Adder.vhd:5' bound to instance 'Bit1' of component 'Full_Adder' [C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Somador_4bits.vhd:32]
+INFO: [Synth 8-638] synthesizing module 'Full_Adder' [C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Full_Adder.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Full_Adder' (2#1) [C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Full_Adder.vhd:13]
+INFO: [Synth 8-3491] module 'Full_Adder' declared at 'C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Full_Adder.vhd:5' bound to instance 'Bit2' of component 'Full_Adder' [C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Somador_4bits.vhd:33]
+INFO: [Synth 8-3491] module 'Full_Adder' declared at 'C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Full_Adder.vhd:5' bound to instance 'Bit3' of component 'Full_Adder' [C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Somador_4bits.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'Somador_4bits' (3#1) [C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Somador_4bits.vhd:13]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1101.422 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1101.422 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:50 ; elapsed = 00:00:47 . Memory (MB): peak = 1145.840 ; gain = 44.418
+13 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:51 ; elapsed = 00:00:47 . Memory (MB): peak = 1145.840 ; gain = 44.418
+file mkdir C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sim_1/new
+file mkdir C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sim_1/new
+file mkdir C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sim_1/new
+file mkdir C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sim_1/new
+file mkdir C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sim_1/new
+file mkdir {C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sim_1/new}
+close [ open {C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sim_1/new/tb_Somador4bitsH.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sim_1/new/tb_Somador4bitsH.vhd}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_Somador4bitsH' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj tb_Somador4bitsH_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Full_Adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Full_Adder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Half_Adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Half_Adder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Somador_4bits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Somador_4bits
+ERROR: [VRFC 10-716] formal port carry_out of mode out cannot be associated with actual port carry of mode buffer [C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Somador_4bits.vhd:31]
+ERROR: [VRFC 10-716] formal port carry_out of mode out cannot be associated with actual port carry of mode buffer [C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Somador_4bits.vhd:32]
+ERROR: [VRFC 10-716] formal port carry_out of mode out cannot be associated with actual port carry of mode buffer [C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Somador_4bits.vhd:33]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Somador_4bits.vhd:13]
+INFO: [VRFC 10-240] VHDL file C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Somador_4bits.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sim_1/new/tb_Somador4bitsH.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_Somador4bitsH
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1145.840 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '7' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.sim/sim_1/behav/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.sim/sim_1/behav/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1145.840 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_Somador4bitsH' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj tb_Somador4bitsH_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Full_Adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Full_Adder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Half_Adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Half_Adder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Somador_4bits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Somador_4bits
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sim_1/new/tb_Somador4bitsH.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_Somador4bitsH
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1151.270 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto a777163c072b4bcc89f2c578e6686bc1 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_Somador4bitsH_behav xil_defaultlib.tb_Somador4bitsH -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Half_Adder [half_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Full_Adder [full_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Somador_4bits [somador_4bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_somador4bitsh
+Built simulation snapshot tb_Somador4bitsH_behav
+ERROR: [Common 17-165] Too many positional options when parsing '-notrace', please type 'webtalk -help' for usage info.
+
+run_program: Time (s): cpu = 00:00:03 ; elapsed = 00:00:24 . Memory (MB): peak = 1151.270 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '25' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_Somador4bitsH_behav -key {Behavioral:sim_1:Functional:tb_Somador4bitsH} -tclbatch {tb_Somador4bitsH.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source tb_Somador4bitsH.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:17 ; elapsed = 00:00:15 . Memory (MB): peak = 1159.949 ; gain = 8.680
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_Somador4bitsH_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:22 ; elapsed = 00:00:48 . Memory (MB): peak = 1159.949 ; gain = 8.680
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sim_1/new/tb_Somador4bitsH.vhd:]
+set_property -name {xsim.simulate.runtime} -value {2560ns} -objects [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1312.836 ; gain = 0.000
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_Somador4bitsH' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj tb_Somador4bitsH_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Full_Adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Full_Adder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Half_Adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Half_Adder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Somador_4bits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Somador_4bits
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sim_1/new/tb_Somador4bitsH.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_Somador4bitsH
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1312.836 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '7' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto a777163c072b4bcc89f2c578e6686bc1 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_Somador4bitsH_behav xil_defaultlib.tb_Somador4bitsH -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Half_Adder [half_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Full_Adder [full_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Somador_4bits [somador_4bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_somador4bitsh
+Built simulation snapshot tb_Somador4bitsH_behav
+ERROR: [Common 17-165] Too many positional options when parsing '-notrace', please type 'webtalk -help' for usage info.
+
+run_program: Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 1312.836 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '12' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_Somador4bitsH_behav -key {Behavioral:sim_1:Functional:tb_Somador4bitsH} -tclbatch {tb_Somador4bitsH.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source tb_Somador4bitsH.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2560ns
+xsim: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 1312.836 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_Somador4bitsH_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2560ns
+launch_simulation: Time (s): cpu = 00:00:18 ; elapsed = 00:00:29 . Memory (MB): peak = 1312.836 ; gain = 0.000
+set_property -name {xsim.simulate.runtime} -value {2550ns} -objects [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1315.883 ; gain = 0.000
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_Somador4bitsH' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj tb_Somador4bitsH_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Full_Adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Full_Adder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Half_Adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Half_Adder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sources_1/new/Somador_4bits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Somador_4bits
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.srcs/sim_1/new/tb_Somador4bitsH.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_Somador4bitsH
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1315.883 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto a777163c072b4bcc89f2c578e6686bc1 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_Somador4bitsH_behav xil_defaultlib.tb_Somador4bitsH -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Half_Adder [half_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Full_Adder [full_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Somador_4bits [somador_4bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_somador4bitsh
+Built simulation snapshot tb_Somador4bitsH_behav
+ERROR: [Common 17-165] Too many positional options when parsing '-notrace', please type 'webtalk -help' for usage info.
+
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 1315.883 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_Somador4bitsH_behav -key {Behavioral:sim_1:Functional:tb_Somador4bitsH} -tclbatch {tb_Somador4bitsH.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source tb_Somador4bitsH.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2550ns
+xsim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1315.883 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_Somador4bitsH_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2550ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:24 . Memory (MB): peak = 1315.883 ; gain = 0.000

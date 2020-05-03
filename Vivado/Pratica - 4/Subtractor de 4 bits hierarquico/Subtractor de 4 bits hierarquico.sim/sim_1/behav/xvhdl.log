@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pratica - 4/Subtractor de 4 bits hierarquico/Subtractor de 4 bits hierarquico.srcs/sources_1/new/Full_Subtractor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Full_Subtractor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pratica - 4/Subtractor de 4 bits hierarquico/Subtractor de 4 bits hierarquico.srcs/sources_1/new/Half_Subtractor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Half_Subtractor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pratica - 4/Subtractor de 4 bits hierarquico/Subtractor de 4 bits hierarquico.srcs/sources_1/new/Subtractor_4bits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Subtractor_4bits
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pratica - 4/Subtractor de 4 bits hierarquico/Subtractor de 4 bits hierarquico.srcs/sim_1/new/tb_Subtractor4bitsH.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_Subtractor4bitsH

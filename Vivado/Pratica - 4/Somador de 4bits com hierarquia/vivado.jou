@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sun Jun 25 22:45:10 2017
+# Process ID: 6780
+# Current directory: C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2508 C:\Users\ianma\Documents\Simula\Pratica - 4\Somador de 4bits com hierarquia\Somador de 4bits com hierarquia.xpr
+# Log file: C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/vivado.log
+# Journal file: C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.xpr}
+update_compile_order -fileset sources_1

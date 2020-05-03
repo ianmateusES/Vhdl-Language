@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Wed Jun 21 14:19:21 2017
+# Process ID: 7092
+# Current directory: C:/Users/ianma/Documents/Simula/LAB7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8800 C:\Users\ianma\Documents\Simula\LAB7\LAB7.xpr
+# Log file: C:/Users/ianma/Documents/Simula/LAB7/vivado.log
+# Journal file: C:/Users/ianma/Documents/Simula/LAB7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ianma/Documents/Simula/LAB7/LAB7.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/ianma/Downloads/Pratica 6/LAB6.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/ianma/Downloads/Pratica 6/zybo_board.xdc'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+open_project: Time (s): cpu = 00:01:01 ; elapsed = 00:01:12 . Memory (MB): peak = 722.414 ; gain = 59.414
+update_compile_order -fileset sources_1
+add_files -fileset constrs_1 -norecurse C:/Users/ianma/Documents/Simula/LAB7/zybo_board.xdc
+close_project
+close_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 763.324 ; gain = 2.043
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 21 14:56:12 2017...

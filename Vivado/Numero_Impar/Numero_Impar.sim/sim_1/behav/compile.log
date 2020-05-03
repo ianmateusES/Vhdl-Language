@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Numero_Impar/Numero_Impar.srcs/sources_1/new/Impar.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Impar
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Numero_Impar/Numero_Impar.srcs/sim_1/new/tb_Impar.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_Impar

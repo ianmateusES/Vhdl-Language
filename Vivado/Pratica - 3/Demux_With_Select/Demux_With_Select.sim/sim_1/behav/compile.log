@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Demux_With_Select/Demux_With_Select.srcs/sources_1/new/DEMUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DEMUX
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Demux_With_Select/Demux_With_Select.srcs/sim_1/new/tb_DEMUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_DEMUX

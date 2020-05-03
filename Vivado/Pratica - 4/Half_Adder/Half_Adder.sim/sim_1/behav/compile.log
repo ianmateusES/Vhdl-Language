@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Half_Adder/Half_Adder.srcs/sources_1/new/Half.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Half
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Half_Adder/Half_Adder.srcs/sim_1/new/tb_Half.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_Half

@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_Codificador_Portas_behav/xsimk.exe -simmode gui -wdb tb_Codificador_Portas_behav.wdb -simrunnum 0 -socket 59728
+Design successfully loaded
+Design Loading Memory Usage: 6456 KB (Peak: 6456 KB)
+Design Loading CPU Usage: 139 ms
+Simulation completed
+Simulation Memory Usage: 7044 KB (Peak: 7044 KB)
+Simulation CPU Usage: 171 ms

@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Sat Apr 29 13:52:33 2017
+# Process ID: 11868
+# Current directory: C:/Users/ianma/Documents/Simula/Full_Adder_4bits
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8352 C:\Users\ianma\Documents\Simula\Full_Adder_4bits\Full_Adder_4bits.xpr
+# Log file: C:/Users/ianma/Documents/Simula/Full_Adder_4bits/vivado.log
+# Journal file: C:/Users/ianma/Documents/Simula/Full_Adder_4bits\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ianma/Documents/Simula/Full_Adder_4bits/Full_Adder_4bits.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/ianma/Documents/Simula/Full_Subtractor/Full_Subtractor.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source tb_Subtractor.tcl
+close_sim

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sat Apr 08 18:13:37 2017
+# Process ID: 8708
+# Current directory: C:/Users/ianma/Documents/Simula/Pratica_2_completa/Pratica_2_completa.sim/sim_1/impl/timing
+# Command line: wbtcv.exe -mode batch -source C:/Users/ianma/Documents/Simula/Pratica_2_completa/Pratica_2_completa.sim/sim_1/impl/timing/xsim.dir/tb_Pratica_2_completa_time_impl/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/ianma/Documents/Simula/Pratica_2_completa/Pratica_2_completa.sim/sim_1/impl/timing/webtalk.log
+# Journal file: C:/Users/ianma/Documents/Simula/Pratica_2_completa/Pratica_2_completa.sim/sim_1/impl/timing\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/ianma/Documents/Simula/Pratica_2_completa/Pratica_2_completa.sim/sim_1/impl/timing/xsim.dir/tb_Pratica_2_completa_time_impl/webtalk/xsim_webtalk.tcl -notrace

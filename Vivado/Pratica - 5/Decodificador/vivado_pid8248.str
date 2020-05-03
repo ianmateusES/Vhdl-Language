@@ -1,0 +1,185 @@
+/*
+
+Vivado v2017.2 (64-bit)
+SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+
+Process ID: 8248
+License: Customer
+
+Current time: 	6/26/17 8:46:20 PM BRT
+Time zone: 	Brasilia Time (America/Sao_Paulo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 2
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 285 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.2/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/java.exe
+Java library paths: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o;C:/WINDOWS/Sun/Java/bin;C:/WINDOWS/system32;C:/WINDOWS;C:/Xilinx/Vivado/2017.2/bin;C:/Xilinx/Vivado/2017.2/lib/win64.o;C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/server;C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin;C:/Xilinx/Vivado/2017.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2017.2/ids_lite/ISE/lib/nt64;C:/Xilinx/Vivado_HLS/2017.2/bin;C:/WINDOWS/system32;C:/WINDOWS;C:/WINDOWS/System32/Wbem;C:/WINDOWS/System32/WindowsPowerShell/v1.0/;C:/Program Files (x86)/ATI Technologies/ATI.ACE/Core-Static;C:/Program Files (x86)/Skype/Phone/;C:/Users/ianma/AppData/Local/Microsoft/WindowsApps;;C:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/bin;C:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/libexec/gcc/x86_64-w64-mingw32/6.2.0;.
+
+User name: 	ianma
+User home directory: C:/Users/ianma
+User working directory: C:/Users/ianma/Documents/Simula/Pratica - 5/Decodificador
+User country: 	BR
+User language: 	pt
+User locale: 	pt_BR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.2
+RDI_DATADIR: C:/Xilinx/Vivado/2017.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.2/bin
+
+User preferences location: C:/Users/ianma/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/ianma/AppData/Roaming/Xilinx/Vivado/2017.2/vivado.xml
+Vivado layouts directory: C:/Users/ianma/AppData/Roaming/Xilinx/Vivado/2017.2/layouts
+PlanAhead jar location: 	C:/Xilinx/Vivado/2017.2/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	C:/Users/ianma/Documents/Simula/Pratica - 5/Decodificador/.Xil/Vivado-8248-Mateus-Torres
+
+GUI allocated memory:	169 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 430 MB
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 26 MB (+25162kb) [00:00:05]
+// [Engine Memory]: 286 MB (+148679kb) [00:00:05]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 54 MB (+28013kb) [00:01:08]
+// [Engine Memory]: 430 MB (+135358kb) [00:01:08]
+// bs:g (cg:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\ianma\Documents\Simula\Pratica - 5\Decodificador\Decodificador.xpr. Version: Vivado v2017.1 
+// HMemoryUtils.trashcanNow. Engine heap size: 447 MB. GUI used memory: 32 MB. Current time: 6/26/17 8:46:27 PM BRT
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/ianma/Documents/Simula/Pratica - 5/Decodificador/Decodificador.xpr} 
+// [Engine Memory]: 454 MB (+3087kb) [00:01:22]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/ianma/Documents/Simula/Pratica - 5/Decodificador/Decodificador.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/ianma/Documents/Simula/Decodificador' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 498 MB (+21842kb) [00:01:52]
+// [GUI Memory]: 59 MB (+2352kb) [00:01:58]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 519 MB. GUI used memory: 36 MB. Current time: 6/26/17 8:47:30 PM BRT
+// Tcl Message: open_project: Time (s): cpu = 00:00:50 ; elapsed = 00:00:53 . Memory (MB): peak = 715.004 ; gain = 65.266 
+// Project name: Decodificador; location: C:/Users/ianma/Documents/Simula/Pratica - 5/Decodificador; part: xc7z010clg400-1
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: DG_ANALYSIS_MSG_RESET
+dismissDialog("Open Project"); // bs:g (cg:JFrame)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 5000 ms.
+// TclEventType: DG_GRAPH_GENERATED
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 4000 ms.
+// Tcl Message: update_compile_order -fileset sources_1 
+// [Engine Memory]: 525 MB (+2515kb) [00:02:56]
+// HMemoryUtils.trashcanNow. Engine heap size: 533 MB. GUI used memory: 36 MB. Current time: 6/26/17 8:51:59 PM BRT
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// [GUI Memory]: 63 MB (+777kb) [00:34:14]
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 533 MB. GUI used memory: 36 MB. Current time: 6/26/17 9:21:59 PM BRT
+// [GUI Memory]: 67 MB (+199kb) [00:41:21]
+// [GUI Memory]: 70 MB (+76kb) [00:46:24]
+// [GUI Memory]: 74 MB (+613kb) [00:52:00]
+// [GUI Memory]: 79 MB (+869kb) [01:03:56]
+// HMemoryUtils.trashcanNow. Engine heap size: 545 MB. GUI used memory: 35 MB. Current time: 6/26/17 9:52:01 PM BRT
+// PAResourceOtoP.PAViews_PROJECT_SUMMARY: Project Summary: close view
+// Elapsed time: 3942 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // y:aJ
+// PAPropertyPanels.initPanels (Decodificador.vhd) elapsed time: 2.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Decodificador(Behavioral) (Decodificador.vhd)]", 1, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Decodificador(Behavioral) (Decodificador.vhd)]", 1, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+// RDIResource.RDIViews_PROPERTIES: Source File Properties: close view
+// Elapsed time: 97 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u:M (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u:M (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 15, false); // u:M (JViewport:JComponent, cg:JFrame)
+// x:aN (cg:JFrame): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, x:aN)
+// bs:g (cg:JFrame):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // x:aN (cg:JFrame)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7z010clg400-1 Top: Decodificador 
+// [Engine Memory]: 559 MB (+8296kb) [01:10:35]
+// HMemoryUtils.trashcanNow. Engine heap size: 559 MB. GUI used memory: 37 MB. Current time: 6/26/17 9:55:53 PM BRT
+// TclEventType: ELABORATE_FINISH
+// [Engine Memory]: 620 MB (+34340kb) [01:10:51]
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 37 MB. Current time: 6/26/17 9:56:08 PM BRT
+// [Engine Memory]: 661 MB (+10566kb) [01:11:06]
+// HMemoryUtils.trashcanNow. Engine heap size: 666 MB. GUI used memory: 37 MB. Current time: 6/26/17 9:56:22 PM BRT
+// [Engine Memory]: 749 MB (+57186kb) [01:11:21]
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 753 MB. GUI used memory: 36 MB. Current time: 6/26/17 9:56:37 PM BRT
+// Xgd.load filename: C:/Xilinx/Vivado/2017.2/data/parts/xilinx/zynq/devint/zynq/xc7z010/xc7z010.xgd; ZipEntry: xc7z010_floorplan.xgd elapsed time: 1.5s
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 5.9s
+// [Engine Memory]: 839 MB (+55718kb) [01:11:35]
+// Xgd.load filename: C:/Xilinx/Vivado/2017.2/data/parts/xilinx/zynq/devint/zynq/xc7z010/xc7z010.xgd; ZipEntry: xc7z010_detail.xgd elapsed time: 8.9s
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// Schematic: addNotify
+// PAPropertyPanels.initPanels (Decodificador.vhd) elapsed time: 1s
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 789.207 ; gain = 49.035 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'Decodificador' [C:/Users/ianma/Documents/Simula/Pratica - 5/Decodificador/Decodificador.srcs/sources_1/new/Decodificador.vhd:10] INFO: [Synth 8-256] done synthesizing module 'Decodificador' (1#1) [C:/Users/ianma/Documents/Simula/Pratica - 5/Decodificador/Decodificador.srcs/sources_1/new/Decodificador.vhd:10] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 826.445 ; gain = 86.273 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 826.445 ; gain = 86.273 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Device 21-403] Loading part xc7z010clg400-1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// HMemoryUtils.trashcanNow. Engine heap size: 850 MB. GUI used memory: 63 MB. Current time: 6/26/17 9:57:13 PM BRT
+// OpenDesignTask elapsed time: 118.1s
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:01:59 ; elapsed = 00:01:53 . Memory (MB): peak = 1088.680 ; gain = 348.508 
+// Tcl Message: 6 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:02:00 ; elapsed = 00:01:53 . Memory (MB): peak = 1088.680 ; gain = 348.508 
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// Elapsed time: 119 seconds
+dismissDialog("Open Elaborated Design"); // bs:g (cg:JFrame)
+// r:bs (cg:JFrame):  Generate Schematic : addNotify
+dismissDialog("Generate Schematic"); // r:bs (cg:JFrame)
+// [GUI Memory]: 83 MB (+209kb) [01:14:24]
+// [GUI Memory]: 88 MB (+1470kb) [01:18:14]
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// PAPropertyPanels.initPanels (ds7_i (RTL_ROM)) elapsed time: 2.6s
+// Schematic: addNotify
+// PAPropertyPanels.initPanels (A) elapsed time: 1.3s
+// Elapsed time: 603 seconds
+selectView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic", 339, 129, 673, 315, false, false, false, true, false); // f:R (k:TdiGroup, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_MARK, "Mark"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SelectMenu_MARK, "Mark"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+// [GUI Memory]: 97 MB (+4589kb) [01:22:13]
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // y:aJ
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Decodificador.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+// [GUI Memory]: 103 MB (+747kb) [01:23:43]
+// [GUI Memory]: 109 MB (+871kb) [01:30:53]
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 860 MB. GUI used memory: 67 MB. Current time: 6/26/17 10:27:17 PM BRT

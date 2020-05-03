@@ -1,0 +1,1 @@
+-wto "73b81d2cb936461385fb70d80e606166" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "tb_Mux_Booleana_behav" "xil_defaultlib.tb_Mux_Booleana" -log "elaborate.log" 

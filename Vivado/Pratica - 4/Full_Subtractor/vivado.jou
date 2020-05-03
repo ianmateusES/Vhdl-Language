@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Mon Jun 26 07:56:41 2017
+# Process ID: 6412
+# Current directory: C:/Users/ianma/Documents/Simula/Pratica - 4/Full_Subtractor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7036 C:\Users\ianma\Documents\Simula\Pratica - 4\Full_Subtractor\Full_Subtractor.xpr
+# Log file: C:/Users/ianma/Documents/Simula/Pratica - 4/Full_Subtractor/vivado.log
+# Journal file: C:/Users/ianma/Documents/Simula/Pratica - 4/Full_Subtractor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/ianma/Documents/Simula/Pratica - 4/Full_Subtractor/Full_Subtractor.xpr}
+update_compile_order -fileset sources_1
+close_project
+open_project {C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.xpr}
+update_compile_order -fileset sources_1

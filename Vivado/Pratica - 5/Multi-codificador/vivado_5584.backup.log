@@ -1,0 +1,156 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Mon Jun 26 20:48:00 2017
+# Process ID: 5584
+# Current directory: C:/Users/ianma/Documents/Simula/Pratica - 5/Multi-codificador
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7924 C:\Users\ianma\Documents\Simula\Pratica - 5\Multi-codificador\Multi-codificador.xpr
+# Log file: C:/Users/ianma/Documents/Simula/Pratica - 5/Multi-codificador/vivado.log
+# Journal file: C:/Users/ianma/Documents/Simula/Pratica - 5/Multi-codificador\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/ianma/Documents/Simula/Pratica - 5/Multi-codificador/Multi-codificador.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/ianma/Documents/Simula/Multi-codificador' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+open_project: Time (s): cpu = 00:00:44 ; elapsed = 00:00:36 . Memory (MB): peak = 734.621 ; gain = 56.914
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_codificador' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ianma/Documents/Simula/Pratica - 5/Multi-codificador/Multi-codificador.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj tb_codificador_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pratica - 5/Multi-codificador/Multi-codificador.srcs/sources_1/new/codificador.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity codificador
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pratica - 5/Multi-codificador/Multi-codificador.srcs/sim_1/new/tb_codificador.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_codificador
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 776.965 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '16' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ianma/Documents/Simula/Pratica - 5/Multi-codificador/Multi-codificador.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 5a6aabd8d1ba49aca63f314d98e5d198 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_codificador_behav xil_defaultlib.tb_codificador -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.codificador [codificador_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_codificador
+Built simulation snapshot tb_codificador_behav
+ERROR: [Common 17-165] Too many positional options when parsing '-notrace', please type 'webtalk -help' for usage info.
+
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:35 . Memory (MB): peak = 776.965 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '35' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ianma/Documents/Simula/Pratica - 5/Multi-codificador/Multi-codificador.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_codificador_behav -key {Behavioral:sim_1:Functional:tb_codificador} -tclbatch {tb_codificador.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source tb_codificador.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+add_wave: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 776.965 ; gain = 0.000
+# run 1280ns
+xsim: Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 776.965 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_codificador_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1280ns
+launch_simulation: Time (s): cpu = 00:00:21 ; elapsed = 00:01:14 . Memory (MB): peak = 776.965 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 802.000 ; gain = 0.000
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_codificador' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ianma/Documents/Simula/Pratica - 5/Multi-codificador/Multi-codificador.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj tb_codificador_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pratica - 5/Multi-codificador/Multi-codificador.srcs/sources_1/new/BCD2421.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity BCD2421
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pratica - 5/Multi-codificador/Multi-codificador.srcs/sources_1/new/BCD5211.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity BCD5211
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pratica - 5/Multi-codificador/Multi-codificador.srcs/sources_1/new/BCD7421.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity BCD7421
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pratica - 5/Multi-codificador/Multi-codificador.srcs/sources_1/new/Codificador_Circ.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Codificador_Circ
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pratica - 5/Multi-codificador/Multi-codificador.srcs/sources_1/new/XS3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity XS3
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/Pratica - 5/Multi-codificador/Multi-codificador.srcs/sim_1/new/tb_codificador.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_codificador
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 802.000 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '7' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ianma/Documents/Simula/Pratica - 5/Multi-codificador/Multi-codificador.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 5a6aabd8d1ba49aca63f314d98e5d198 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_codificador_behav xil_defaultlib.tb_codificador -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.BCD7421 [bcd7421_default]
+Compiling architecture behavioral of entity xil_defaultlib.BCD5211 [bcd5211_default]
+Compiling architecture behavioral of entity xil_defaultlib.BCD2421 [bcd2421_default]
+Compiling architecture behavioral of entity xil_defaultlib.XS3 [xs3_default]
+Compiling architecture behavioral of entity xil_defaultlib.Codificador_Circ [codificador_circ_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_codificador
+Built simulation snapshot tb_codificador_behav
+ERROR: [Common 17-165] Too many positional options when parsing '-notrace', please type 'webtalk -help' for usage info.
+
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:28 . Memory (MB): peak = 802.000 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '29' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ianma/Documents/Simula/Pratica - 5/Multi-codificador/Multi-codificador.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_codificador_behav -key {Behavioral:sim_1:Functional:tb_codificador} -tclbatch {tb_codificador.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source tb_codificador.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1280ns
+xsim: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 802.000 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_codificador_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1280ns
+launch_simulation: Time (s): cpu = 00:00:13 ; elapsed = 00:00:48 . Memory (MB): peak = 802.000 ; gain = 0.000

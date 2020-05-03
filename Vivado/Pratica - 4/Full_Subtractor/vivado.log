@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Mon Jun 26 07:56:41 2017
+# Process ID: 6412
+# Current directory: C:/Users/ianma/Documents/Simula/Pratica - 4/Full_Subtractor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7036 C:\Users\ianma\Documents\Simula\Pratica - 4\Full_Subtractor\Full_Subtractor.xpr
+# Log file: C:/Users/ianma/Documents/Simula/Pratica - 4/Full_Subtractor/vivado.log
+# Journal file: C:/Users/ianma/Documents/Simula/Pratica - 4/Full_Subtractor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/ianma/Documents/Simula/Pratica - 4/Full_Subtractor/Full_Subtractor.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/ianma/Documents/Simula/Full_Subtractor' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+open_project: Time (s): cpu = 00:00:38 ; elapsed = 00:00:28 . Memory (MB): peak = 713.680 ; gain = 68.898
+update_compile_order -fileset sources_1
+close_project
+open_project {C:/Users/ianma/Documents/Simula/Pratica - 4/Somador de 4bits com hierarquia/Somador de 4bits com hierarquia.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:18 . Memory (MB): peak = 753.133 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jun 26 08:52:47 2017...

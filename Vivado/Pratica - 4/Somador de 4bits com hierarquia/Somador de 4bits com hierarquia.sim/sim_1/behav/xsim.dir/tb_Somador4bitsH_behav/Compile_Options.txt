@@ -1,0 +1,1 @@
+-wto "a777163c072b4bcc89f2c578e6686bc1" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "tb_Somador4bitsH_behav" "xil_defaultlib.tb_Somador4bitsH" -log "elaborate.log" 

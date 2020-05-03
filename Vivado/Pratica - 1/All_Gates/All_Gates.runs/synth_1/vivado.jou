@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Apr 03 18:27:27 2017
+# Process ID: 5980
+# Current directory: C:/Users/ianma/Documents/Simula/All_Gates/All_Gates.runs/synth_1
+# Command line: vivado.exe -log All_Gates.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source All_Gates.tcl
+# Log file: C:/Users/ianma/Documents/Simula/All_Gates/All_Gates.runs/synth_1/All_Gates.vds
+# Journal file: C:/Users/ianma/Documents/Simula/All_Gates/All_Gates.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source All_Gates.tcl -notrace

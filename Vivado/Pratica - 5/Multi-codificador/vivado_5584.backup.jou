@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Mon Jun 26 20:48:00 2017
+# Process ID: 5584
+# Current directory: C:/Users/ianma/Documents/Simula/Pratica - 5/Multi-codificador
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7924 C:\Users\ianma\Documents\Simula\Pratica - 5\Multi-codificador\Multi-codificador.xpr
+# Log file: C:/Users/ianma/Documents/Simula/Pratica - 5/Multi-codificador/vivado.log
+# Journal file: C:/Users/ianma/Documents/Simula/Pratica - 5/Multi-codificador\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/ianma/Documents/Simula/Pratica - 5/Multi-codificador/Multi-codificador.xpr}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_codificador.tcl
+close_sim
+launch_simulation
+source tb_codificador.tcl

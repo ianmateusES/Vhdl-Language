@@ -1,0 +1,7 @@
+Unable to capture context for thread 1796 in process 3044, can not generate back trace
+Exception at PC 0x00007FFA5BABBB93
+Printing stacktrace...
+
+Exception at PC 0x00007FFA5B7C1A52
+Attemped to write at address 0x00007FFA857AABA4
+Another exception occurred while writing back trace, hence exiting

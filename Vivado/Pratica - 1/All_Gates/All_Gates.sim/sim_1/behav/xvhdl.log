@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/All_Gates/All_Gates.srcs/sources_1/new/All_Gates.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity All_Gates
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ianma/Documents/Simula/All_Gates/All_Gates.srcs/sim_1/imports/Arquivos de aula/tb_ALL_GATES.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_ALL_GATES
